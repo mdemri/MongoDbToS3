@@ -10,7 +10,7 @@ var config = {};
 config.mongoUrl = process.env.MONGO_URL;
 config.environment = process.env.ENVIRONMENT || 'staging';
 config.accessKeyId = process.env.AWS_ACCESS_KEY;
-config.secretAccessKey = process.env.AWS_SECREY_KEY
+config.secretAccessKey = process.env.AWS_SECRET_KEY
 config.bucket = process.env.BUCKET || 'gf-mongodb-backup'
 console.log(JSON.stringify(config, null, 2))
 

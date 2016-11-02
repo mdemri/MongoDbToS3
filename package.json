@@ -10,5 +10,19 @@
     "mongo-uri": "^0.1.2",
     "mongodb-backup": "^1.6.0",
     "tar.gz": "^1.0.5"
-  }
+  },
+  "name": "aws-lambda-mongodb-backup",
+  "description": "",
+  "version": "0.0.1",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdemri/MongoDbToS3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdemri/MongoDbToS3/issues"
+  },
+  "homepage": "https://github.com/mdemri/MongoDbToS3#readme"
 }
